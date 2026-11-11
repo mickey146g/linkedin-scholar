@@ -1,0 +1,383 @@
+{
+ "updated": "11 Nov 2026",
+ "followers": 959,
+ "period": {
+  "label": "12 Nov 2025 to 11 Nov 2026",
+  "impressions": 21338,
+  "reactions": 201
+ },
+ "monthly": [
+  [
+   "Nov 2025",
+   238
+  ],
+  [
+   "Dec 2025",
+   9311
+  ],
+  [
+   "Jan 2026",
+   277
+  ],
+  [
+   "Feb 2026",
+   68
+  ],
+  [
+   "Mar 2026",
+   56
+  ],
+  [
+   "Apr 2026",
+   722
+  ],
+  [
+   "May 2026",
+   98
+  ],
+  [
+   "Jun 2026",
+   53
+  ],
+  [
+   "Jul 2026",
+   9
+  ],
+  [
+   "Aug 2026",
+   27
+  ],
+  [
+   "Sep 2026",
+   9593
+  ],
+  [
+   "Oct 2026",
+   505
+  ],
+  [
+   "Nov 2026",
+   381
+  ]
+ ],
+ "posts": [
+  {
+   "id": "7525498607534362624",
+   "date": "2026-11-09",
+   "title": "What happens to politics after a wildfire in Africa?",
+   "summary": "MAURC Policy Brief 2026/03, based on our Nature Communications study with Siyuan Chen, Lina Meng, Pengfei Liu and Lu Lin.",
+   "type": "Policy brief",
+   "topics": [
+    "Climate & environment",
+    "Political economy"
+   ],
+   "reactions": 1,
+   "comments": 0,
+   "impressions": 36,
+   "read": "https://lnkd.in/g2C8XMsw"
+  },
+  {
+   "id": "7525497913196793856",
+   "date": "2026-11-09",
+   "title": "After a large wildfire, Africans turn up at community meetings",
+   "summary": "MAURC data note on fire exposure and meeting attendance across 34 countries.",
+   "type": "Data note",
+   "topics": [
+    "Climate & environment",
+    "Political economy"
+   ],
+   "reactions": 0,
+   "comments": 0,
+   "impressions": 85,
+   "read": "https://lnkd.in/gyY9_tFh"
+  },
+  {
+   "id": "7523674730940416001",
+   "date": "2026-11-04",
+   "title": "What Africa's youth unemployment figures hide",
+   "summary": "My first MAURC commentary: the one-hour job definition, informal work, and youth unemployment in Greater Accra.",
+   "type": "Commentary",
+   "topics": [
+    "Labour & finance",
+    "Urban economics"
+   ],
+   "reactions": 2,
+   "comments": 0,
+   "impressions": 198,
+   "read": "https://lnkd.in/gGAeKPAs"
+  },
+  {
+   "id": "7522964149191225344",
+   "date": "2026-11-02",
+   "title": "Where does the world burn? Mostly in Africa",
+   "summary": "MAURC data note on Africa's share of the world's burned area, ahead of Policy Brief 2026/03.",
+   "type": "Data note",
+   "topics": [
+    "Climate & environment"
+   ],
+   "reactions": 1,
+   "comments": 0,
+   "impressions": 52,
+   "read": "https://lnkd.in/gddGm24k"
+  },
+  {
+   "id": "7520439022360416257",
+   "date": "2026-10-26",
+   "title": "Africa's medium-sized cities are slipping down the urban ladder",
+   "summary": "MAURC Policy Brief 2026/02 with Florence Gyambibi, on 7,549 urban areas in 43 countries (Cities, 2025).",
+   "type": "Policy brief",
+   "topics": [
+    "Urban economics"
+   ],
+   "reactions": 1,
+   "comments": 0,
+   "impressions": 70,
+   "read": "https://lnkd.in/g3rqBWNJ"
+  },
+  {
+   "id": "7518204973352923136",
+   "date": "2026-10-20",
+   "title": "Fewer than four in ten Africans trust their local council",
+   "summary": "MAURC data note opening the Urban Finance & Governance series (Afrobarometer, 39 countries).",
+   "type": "Data note",
+   "topics": [
+    "Political economy",
+    "Urban economics"
+   ],
+   "reactions": 2,
+   "comments": 0,
+   "impressions": 98,
+   "read": "https://www.maurc.net/media-center"
+  },
+  {
+   "id": "7516062907563028494",
+   "date": "2026-10-14",
+   "title": "How far does the social damage from an e-waste dump reach?",
+   "summary": "Agbogbloshie (Accra) and Lagos; our Ecological Economics paper with Jialiang Zhu and Runzhe Hu.",
+   "type": "Data note",
+   "topics": [
+    "Climate & environment",
+    "Urban economics"
+   ],
+   "reactions": 1,
+   "comments": 0,
+   "impressions": 104,
+   "read": "https://www.maurc.net/media-center"
+  },
+  {
+   "id": "7512792479549702144",
+   "date": "2026-10-05",
+   "title": "World Habitat Day: the average African urban area has about 92,000 people",
+   "summary": "MAURC data note from our Cities study of 43 African countries with Florence Gyambibi.",
+   "type": "Data note",
+   "topics": [
+    "Urban economics"
+   ],
+   "reactions": 4,
+   "comments": 0,
+   "impressions": 240,
+   "read": "https://www.maurc.net"
+  },
+  {
+   "id": "7506649753762463744",
+   "date": "2026-09-18",
+   "title": "Wildfire exposure and political participation in Africa",
+   "summary": "Paper announcement: our study in Nature Communications (2026).",
+   "type": "Research",
+   "topics": [
+    "Climate & environment",
+    "Political economy"
+   ],
+   "reactions": 11,
+   "comments": 1,
+   "impressions": 881,
+   "read": "https://lnkd.in/gaZ_Bqw3"
+  },
+  {
+   "id": "7506626950426279936",
+   "date": "2026-09-18",
+   "title": "Wildfire exposure and political participation in Africa (link post)",
+   "summary": "The same Nature Communications paper, shared as a link post.",
+   "type": "Research",
+   "topics": [
+    "Climate & environment",
+    "Political economy"
+   ],
+   "reactions": 6,
+   "comments": 0,
+   "impressions": 340,
+   "read": ""
+  },
+  {
+   "id": "7502640355398299648",
+   "date": "2026-09-07",
+   "title": "Breaking bonds, building mistrust: coups and social capital in Africa",
+   "summary": "Our World Development study: coups reduce both interpersonal and institutional trust.",
+   "type": "Research",
+   "topics": [
+    "Political economy"
+   ],
+   "reactions": 68,
+   "comments": 2,
+   "impressions": 8347,
+   "read": "https://lnkd.in/gzbWKdis"
+  },
+  {
+   "id": "7449740893051568128",
+   "date": "2026-04-14",
+   "title": "Unintended economic consequences of South Africa's 2013 Minimum Emission Standards",
+   "summary": "New paper on environmental regulation in South Africa, using panel data and difference-in-differences.",
+   "type": "Research",
+   "topics": [
+    "Climate & environment"
+   ],
+   "reactions": 19,
+   "comments": 3,
+   "impressions": 791,
+   "read": ""
+  },
+  {
+   "id": "7408763270645608448",
+   "date": "2025-12-22",
+   "title": "Why Ghanaians still keep savings under the mattress",
+   "summary": "The lasting legacy of Ghana's 1982 currency recall for trust in banks, across two generations.",
+   "type": "Research",
+   "topics": [
+    "Labour & finance"
+   ],
+   "reactions": 51,
+   "comments": 3,
+   "impressions": 8715,
+   "read": "https://lnkd.in/gH9rX_nw"
+  },
+  {
+   "id": "7406956848026726400",
+   "date": "2025-12-17",
+   "title": "Living next to a smouldering e-waste field",
+   "summary": "Our study of what e-waste dumping sites do to the communities around them.",
+   "type": "Research",
+   "topics": [
+    "Climate & environment",
+    "Urban economics"
+   ],
+   "reactions": 26,
+   "comments": 2,
+   "impressions": 1041,
+   "read": "https://lnkd.in/g95QnFdw"
+  },
+  {
+   "id": "7392007479829815296",
+   "date": "2025-11-06",
+   "title": "The paradox of assistance: Chinese aid in Africa and economic expectations",
+   "summary": "China Economic Review. Living near an active Chinese project lowers people's economic expectations.",
+   "type": "Research",
+   "topics": [
+    "Political economy"
+   ],
+   "reactions": 16,
+   "comments": 1,
+   "impressions": 714,
+   "read": "https://www.sciencedirect.com/science/article/abs/pii/S1043951X25002378"
+  },
+  {
+   "id": "7335496187619287040",
+   "date": "2025-06-03",
+   "title": "The impact of sports betting shops on crime patterns in Ghana",
+   "summary": "Journal of Gambling Studies. Living closer to betting shops raises burglary risk.",
+   "type": "Research",
+   "topics": [
+    "Urban economics"
+   ],
+   "reactions": 7,
+   "comments": 0,
+   "impressions": 399,
+   "read": "https://rdcu.be/eo991"
+  },
+  {
+   "id": "7298861213583585280",
+   "date": "2025-02-22",
+   "title": "City size distributions across 43 African countries, 2013 to 2021",
+   "summary": "Cities (2025). Population follows Zipf's law; economic activity is more concentrated.",
+   "type": "Research",
+   "topics": [
+    "Urban economics"
+   ],
+   "reactions": 21,
+   "comments": 0,
+   "impressions": 725,
+   "read": "https://lnkd.in/gECTZuPg"
+  },
+  {
+   "id": "7277302818410012672",
+   "date": "2024-12-24",
+   "title": "A spotlight on fossil fuel lobby and energy transition possibilities in emerging oil-producing economies",
+   "summary": "Heliyon.",
+   "type": "Research",
+   "topics": [
+    "Climate & environment",
+    "Political economy"
+   ],
+   "reactions": 7,
+   "comments": 1,
+   "impressions": 358,
+   "read": "https://lnkd.in/gAyXaN_w"
+  },
+  {
+   "id": "7188707674492940288",
+   "date": "2024-04-24",
+   "title": "Wiley Top Cited Paper: Chinese aid and crime, evidence from Africa",
+   "summary": "Our Journal of International Development paper was named a Wiley Top Cited Paper.",
+   "type": "Recognition",
+   "topics": [
+    "Political economy"
+   ],
+   "reactions": 36,
+   "comments": 14,
+   "impressions": 1878,
+   "read": ""
+  },
+  {
+   "id": "7188900967814180865",
+   "date": "2024-04-24",
+   "title": "Wiley Top Cited Paper: Chinese aid and crime, evidence from Africa (certificate)",
+   "summary": "The Wiley certificate for our Journal of International Development paper, shared as a document.",
+   "type": "Recognition",
+   "topics": [
+    "Political economy"
+   ],
+   "reactions": 23,
+   "comments": 6,
+   "impressions": 690,
+   "read": ""
+  },
+  {
+   "id": "7261568966785970176",
+   "date": "2024-11-11",
+   "title": "Digital technology adoption and electricity demand in West Africa",
+   "summary": "A 1% rise in internet connectivity raises electricity demand by 19.3%; mobile phones by 6.85%.",
+   "type": "Research",
+   "topics": [
+    "Climate & environment",
+    "Urban economics"
+   ],
+   "reactions": 40,
+   "comments": 4,
+   "impressions": 1138,
+   "read": "https://lnkd.in/geZnygED"
+  },
+  {
+   "id": "7016832860485505024",
+   "date": "2023-01-05",
+   "title": "Chinese aid and crime: Evidence from Africa",
+   "summary": "Journal of International Development. How Chinese-financed projects affect local crime rates, and why.",
+   "type": "Research",
+   "topics": [
+    "Political economy"
+   ],
+   "reactions": 15,
+   "comments": 5,
+   "impressions": 59,
+   "read": "https://lnkd.in/ev2shkZG"
+  }
+ ]
+}

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LinkedIn Scholar · Michael Appiah-Kubi</title>
+<meta name="description" content="Michael Appiah-Kubi's LinkedIn posts on African cities, political economy and climate, ranked by reactions.">
+<meta property="og:title" content="LinkedIn Scholar · Michael Appiah-Kubi">
+<meta property="og:description" content="My LinkedIn posts, ranked like papers. Reactions instead of citations.">
+<style>
+  :root{
+    --ink:#202124; --muted:#5f6368; --faint:#80868b; --line:#e3e5e8; --bg:#ffffff; --panel:#f6f7f8;
+    --link:#1a4f9c; --link-visited:#5a3d8a; --accent:#0f6b5c; --bar:#7d8590; --bar-hi:#0f6b5c;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 Arial, "Helvetica Neue", Roboto, sans-serif}
+  a{color:var(--link);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .skip{position:absolute;left:-999px}
+  .skip:focus{left:8px;top:8px;background:#fff;padding:6px 10px;border:1px solid var(--line);z-index:9}
+  header.top{display:flex;align-items:center;justify-content:space-between;padding:10px 20px;background:var(--panel);border-bottom:1px solid var(--line)}
+  .brand{font-size:20px;letter-spacing:.2px;color:var(--muted)}
+  .brand b{color:var(--accent);font-weight:600}
+  .top nav a{margin-left:16px;font-size:13px}
+  .wrap{max-width:1180px;margin:0 auto;padding:20px;display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:28px}
+  .profile{display:flex;gap:18px;align-items:flex-start;margin-bottom:18px}
+  .avatar{flex:0 0 96px;height:96px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-size:34px;letter-spacing:1px;overflow:hidden}
+  .avatar img{width:100%;height:100%;object-fit:cover}
+  .profile h1{font-size:22px;font-weight:400;margin:2px 0 4px}
+  .profile .aff{font-size:13px;color:var(--ink);margin:1px 0}
+  .profile>div{min-width:0}
+  .profile .links,.profile .topics{display:flex;flex-wrap:wrap;column-gap:12px}
+  .profile .links{font-size:13px;margin-top:4px}
+  .profile .links a{margin-right:12px}
+  .profile .topics{font-size:13px;margin-top:6px}
+  .profile .topics a{margin-right:12px}
+  .follow{margin-left:auto;align-self:flex-start;border:1px solid var(--line);border-radius:4px;padding:6px 12px;font-size:12px;letter-spacing:.4px;color:var(--muted);white-space:nowrap}
+  .follow:hover{background:var(--panel);text-decoration:none}
+  .controls{display:flex;gap:8px;margin:6px 0 10px}
+  .controls input,.controls select{font:inherit;border:1px solid var(--line);border-radius:4px;padding:7px 10px;background:#fff;color:var(--ink)}
+  .controls input{flex:1;min-width:0}
+  table.posts{width:100%;border-collapse:collapse}
+  table.posts thead th{font-size:11px;font-weight:600;letter-spacing:.5px;color:var(--muted);text-transform:uppercase;text-align:left;padding:8px;border-bottom:1px solid var(--line);background:var(--panel)}
+  table.posts thead th.num{text-align:right;width:104px;white-space:nowrap}
+  table.posts thead button{all:unset;cursor:pointer;color:var(--link)}
+  table.posts thead button{white-space:nowrap}
+  table.posts td{padding:10px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+  td.num{text-align:right;white-space:nowrap}
+  td.num a{font-size:14px}
+  .ptitle{font-size:15px}
+  .psum{color:var(--muted);font-size:13px;margin-top:2px}
+  .pmeta{color:var(--faint);font-size:12px;margin-top:2px}
+  .pmeta a{margin-left:8px}
+  .tag{display:inline-block;font-size:11px;color:var(--accent);border:1px solid #cfe3de;border-radius:3px;padding:0 5px;margin-right:6px}
+  .seg{display:flex;align-items:center;gap:6px;margin:0 0 10px;font-size:12px;color:var(--muted)}
+  .seg button{font:inherit;font-size:12px;border:1px solid var(--line);background:#fff;color:var(--link);border-radius:14px;padding:4px 12px;cursor:pointer}
+  .seg button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+  .empty{color:var(--muted);padding:16px 8px}
+  aside section{margin-bottom:22px}
+  aside h2{font-size:13px;font-weight:600;margin:0 0 8px;color:var(--ink)}
+  table.impact{width:100%;border-collapse:collapse;font-size:13px}
+  table.impact th,table.impact td{padding:5px 4px;border-bottom:1px solid var(--line)}
+  table.impact th{font-weight:400;color:var(--muted);text-align:right}
+  table.impact td{text-align:right}
+  table.impact td:first-child,table.impact th:first-child{text-align:left}
+  .note{font-size:11px;color:var(--faint);margin-top:6px}
+  .chart svg{display:block;width:100%;height:auto}
+  .kv{display:flex;justify-content:space-between;font-size:13px;padding:5px 0;border-bottom:1px solid var(--line)}
+  .kv span:last-child{font-variant-numeric:tabular-nums}
+  footer{max-width:1180px;margin:10px auto 30px;padding:0 20px;color:var(--muted);font-size:12px}
+  footer h2{font-size:13px;color:var(--ink);margin:18px 0 6px}
+  footer p{margin:4px 0}
+  .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  @media (max-width:860px){
+    .wrap{grid-template-columns:1fr}
+    .follow{display:none}
+    table.posts thead th.num{width:70px}
+    .hide-sm{display:none}
+    .wrap{padding:14px}
+    .avatar{flex-basis:64px;height:64px;font-size:24px}
+    .profile{gap:12px}
+    .controls{flex-direction:column}
+    table.posts td{padding:10px 4px}
+    header.top{padding:10px 14px}
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#posts">Skip to posts</a>
+<header class="top">
+  <div class="brand"><b>LinkedIn</b> Scholar</div>
+  <nav>
+    <a href="https://michaelappiahkubi.com/">My website</a>
+    <a href="https://www.maurc.net/">MAURC</a>
+  </nav>
+</header>
+
+<div class="wrap">
+  <main>
+    <div class="profile">
+      <div class="avatar" aria-hidden="true">MA</div>
+      <div>
+        <h1>Michael Appiah-Kubi</h1>
+        <div class="aff">Research Fellow, MAFLO African Urban Research Center (MAURC), Accra</div>
+        <div class="aff">Ph.D. Economics, Xiamen University</div>
+        <div class="links">
+          <a href="https://michaelappiahkubi.com/">Homepage</a>
+          <a href="https://www.linkedin.com/in/michael-appiah-kubi-ph-d-a4bb1313/">LinkedIn profile</a>
+          <a href="https://www.maurc.net/media-center">MAURC briefs</a>
+        </div>
+        <div class="topics" id="topicLinks"></div>
+      </div>
+      <a class="follow" href="https://www.linkedin.com/in/michael-appiah-kubi-ph-d-a4bb1313/">FOLLOW</a>
+    </div>
+
+    <div class="controls">
+      <label class="sr" for="q">Search posts</label>
+      <input id="q" type="search" placeholder="Search posts">
+      <label class="sr" for="topic">Topic</label>
+      <select id="topic"><option value="">All topics</option></select>
+    </div>
+
+    <div class="seg" role="group" aria-label="Rank posts by">
+      <span>Rank by</span>
+      <button data-mode="reactions" aria-pressed="true">Reactions</button>
+      <button data-mode="impressions" aria-pressed="false">Impressions</button>
+      <button data-mode="date" aria-pressed="false">Newest</button>
+    </div>
+
+    <table class="posts" id="posts">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th class="num"><button id="metricHead" title="Click to switch between reactions and impressions">Reactions ▾</button></th>
+          <th class="num"><button id="yearHead">Year</button></th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </main>
+
+  <aside>
+    <section>
+      <h2>Post impact</h2>
+      <table class="impact" id="impact"></table>
+      <div class="note" id="impactNote"></div>
+    </section>
+    <section class="chart">
+      <h2>Monthly impressions</h2>
+      <div id="chart"></div>
+      <div class="note" id="periodLabel"></div>
+      <ol class="sr" id="chartList"></ol>
+    </section>
+    <section>
+      <div class="kv"><span>Period impressions</span><span id="pImp"></span></div>
+      <div class="kv"><span>Period reactions</span><span id="pReact"></span></div>
+      <div class="kv"><span>Followers <small style="color:var(--faint)">at last check</small></span><span id="followers"></span></div>
+      <div class="note">Period totals include reactions to posts published before the period. The first and last months are partial.</div>
+    </section>
+  </aside>
+</div>
+
+<footer>
+  <h2>About the numbers</h2>
+  <p>The <b>h-index</b> here is the largest number <i>h</i> such that <i>h</i> posts have at least <i>h</i> reactions each. The <b>i10-index</b> is the number of posts with at least 10 reactions. These are based on LinkedIn reactions, not academic citations.</p>
+  <p>Impressions count how many times a post was shown, not how many people saw it. Reactions include likes and every other reaction type.</p>
+  <p id="updatedNote"></p>
+  <p>An independent personal archive. Not affiliated with LinkedIn or Google.</p>
+</footer>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function(){
+  var D = JSON.parse(document.getElementById('data').textContent);
+  var posts = D.posts.map(function(p){ p.year = +p.date.slice(0,4); return p; });
+  var fmt = function(n){ return n.toLocaleString('en-US'); };
+  var esc = function(s){ return String(s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); };
+
+  // topics
+  var topics = [];
+  posts.forEach(function(p){ p.topics.forEach(function(t){ if(topics.indexOf(t) < 0) topics.push(t); }); });
+  var order = ['Urban economics','Political economy','Climate & environment','Labour & finance'];
+  topics.sort(function(a,b){ return (order.indexOf(a)+99*(order.indexOf(a)<0)) - (order.indexOf(b)+99*(order.indexOf(b)<0)); });
+  var sel = document.getElementById('topic'), tl = document.getElementById('topicLinks');
+  topics.forEach(function(t){
+    var o = document.createElement('option'); o.value = t; o.textContent = t; sel.appendChild(o);
+    var a = document.createElement('a'); a.href = '#posts'; a.textContent = t;
+    a.addEventListener('click', function(){ sel.value = t; state.topic = t; render(); });
+    tl.appendChild(a);
+  });
+
+  // impact metrics
+  function hindex(list){ var r = list.map(function(p){return p.reactions;}).sort(function(a,b){return b-a;}); var h=0; while(h<r.length && r[h]>=h+1) h++; return h; }
+  function i10(list){ return list.filter(function(p){return p.reactions>=10;}).length; }
+  function sum(list,k){ return list.reduce(function(s,p){return s+p[k];},0); }
+  var curYear = +D.updated.slice(-4);
+  var recent = posts.filter(function(p){ return p.year >= curYear; });
+  document.getElementById('impact').innerHTML =
+    '<tr><th></th><th>All</th><th>Since '+curYear+'</th></tr>' +
+    '<tr><td>Reactions</td><td>'+fmt(sum(posts,'reactions'))+'</td><td>'+fmt(sum(recent,'reactions'))+'</td></tr>' +
+    '<tr><td>h-index</td><td>'+hindex(posts)+'</td><td>'+hindex(recent)+'</td></tr>' +
+    '<tr><td>i10-index</td><td>'+i10(posts)+'</td><td>'+i10(recent)+'</td></tr>' +
+    '<tr><td>Impressions</td><td>'+fmt(sum(posts,'impressions'))+'</td><td>'+fmt(sum(recent,'impressions'))+'</td></tr>';
+  document.getElementById('impactNote').textContent = 'Based on '+posts.length+' archived posts and their lifetime reactions, not academic citations.';
+
+  // chart
+  var m = D.monthly, max = Math.max.apply(null, m.map(function(x){return x[1];}));
+  var step = max > 8000 ? 2500 : max > 2000 ? 1000 : 250;
+  var top = Math.ceil(max/step)*step;
+  var W = 300, H = 170, L = 34, B = 22, T = 8, cw = (W-L-4)/m.length;
+  var s = '<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="Bar chart of monthly impressions">';
+  for(var g=0; g<=top; g+=step){
+    var y = T + (H-T-B)*(1-g/top);
+    s += '<line x1="'+L+'" x2="'+(W-2)+'" y1="'+y+'" y2="'+y+'" stroke="#e3e5e8"/>';
+    s += '<text x="'+(L-4)+'" y="'+(y+3)+'" font-size="8" fill="#80868b" text-anchor="end">'+(g>=1000? (g/1000)+'K' : g)+'</text>';
+  }
+  m.forEach(function(x,i){
+    var h = (H-T-B)*(x[1]/top), xx = L + i*cw + cw*0.15, y = T + (H-T-B) - h;
+    s += '<rect x="'+xx+'" y="'+y+'" width="'+(cw*0.7)+'" height="'+Math.max(h,0.5)+'" fill="'+(x[1]===max?'#0f6b5c':'#7d8590')+'"><title>'+x[0]+': '+fmt(x[1])+'</title></rect>';
+    if(i%2===0) s += '<text x="'+(xx+cw*0.35)+'" y="'+(H-8)+'" font-size="8" fill="#80868b" text-anchor="middle">'+x[0].slice(0,3)+'</text>';
+  });
+  s += '</svg>';
+  document.getElementById('chart').innerHTML = s;
+  document.getElementById('chartList').innerHTML = m.map(function(x){ return '<li>'+x[0]+': '+fmt(x[1])+'</li>'; }).join('');
+  document.getElementById('periodLabel').textContent = D.period.label;
+  document.getElementById('pImp').textContent = fmt(D.period.impressions);
+  document.getElementById('pReact').textContent = fmt(D.period.reactions);
+  document.getElementById('followers').textContent = fmt(D.followers);
+  document.getElementById('updatedNote').textContent = 'Last checked '+D.updated+'. Reaction and impression counts per post are lifetime totals; the monthly chart and period totals come from LinkedIn creator analytics.';
+
+  // table
+  var state = { q:'', topic:'', metric:'reactions', mode:'reactions' };
+  try { var u = new URLSearchParams(location.search); if(u.get('topic')) state.topic = u.get('topic'); } catch(e){}
+  sel.value = state.topic;
+  var metricHead = document.getElementById('metricHead'), yearHead = document.getElementById('yearHead');
+  var label = { reactions:'Reactions', impressions:'Impressions' };
+  function setMode(mode){
+    state.mode = mode;
+    if(mode !== 'date') state.metric = mode;
+    render();
+  }
+  function render(){
+    var q = state.q.toLowerCase(), k = state.metric;
+    var list = posts.filter(function(p){
+      if(state.topic && p.topics.indexOf(state.topic) < 0) return false;
+      if(q && (p.title+' '+p.summary+' '+p.type+' '+p.topics.join(' ')).toLowerCase().indexOf(q) < 0) return false;
+      return true;
+    });
+    list.sort(function(a,b){
+      if(state.mode==='date') return b.date.localeCompare(a.date);
+      return (b[k]-a[k]) || b.date.localeCompare(a.date);
+    });
+    var url = function(p){ return 'https://www.linkedin.com/feed/update/urn:li:activity:'+p.id+'/'; };
+    document.getElementById('rows').innerHTML = list.length ? list.map(function(p){
+      var other = k==='reactions' ? fmt(p.impressions)+' impressions' : fmt(p.reactions)+' reactions';
+      return '<tr><td><div class="ptitle"><a href="'+url(p)+'" target="_blank" rel="noopener">'+esc(p.title)+'</a></div>' +
+        '<div class="psum">'+esc(p.summary)+'</div>' +
+        '<div class="pmeta"><span class="tag">'+esc(p.type)+'</span>Michael Appiah-Kubi · '+p.date.split('-').reverse().join('/') + ' · '+other +
+        (p.read ? '<a href="'+esc(p.read)+'" target="_blank" rel="noopener">Read</a>' : '') + '</div></td>' +
+        '<td class="num"><a href="'+url(p)+'" target="_blank" rel="noopener">'+fmt(p[k])+'</a></td>' +
+        '<td class="num">'+p.year+'</td></tr>';
+    }).join('') : '<tr><td colspan="3" class="empty">No posts match.</td></tr>';
+    metricHead.textContent = label[k] + (state.mode!=='date' ? ' ▾' : ' ⇄');
+    metricHead.setAttribute('aria-label', label[k]+'. Click to switch to '+(k==='reactions'?'impressions':'reactions'));
+    yearHead.textContent = 'Year' + (state.mode==='date' ? ' ▾' : '');
+    document.querySelectorAll('.seg button').forEach(function(b){ b.setAttribute('aria-pressed', b.getAttribute('data-mode')===state.mode); });
+  }
+  document.getElementById('q').addEventListener('input', function(e){ state.q = e.target.value; render(); });
+  sel.addEventListener('change', function(e){ state.topic = e.target.value; render(); });
+  metricHead.addEventListener('click', function(){
+    if(state.mode==='date') setMode(state.metric);
+    else setMode(state.metric==='reactions' ? 'impressions' : 'reactions');
+  });
+  yearHead.addEventListener('click', function(){ setMode('date'); });
+  document.querySelectorAll('.seg button').forEach(function(b){ b.addEventListener('click', function(){ setMode(b.getAttribute('data-mode')); }); });
+  render();
+})();
+</script>
+</body>
+</html>
